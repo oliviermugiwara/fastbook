@@ -9,6 +9,16 @@ Principe : Kaggle lance un serveur Jupyter sur son GPU → un tunnel public
 
 ---
 
+## ⚡ En bref (3 étapes)
+
+1. **Kaggle** : nouveau notebook → GPU `On` + Internet `On`
+2. Colle le contenu de `cloud_gpu_bootstrap.py` → exécute → copie l'URL affichée
+3. **VS Code** : Select Kernel → Existing Jupyter Server → colle l'URL
+
+Détails de chaque étape ci-dessous.
+
+---
+
 ## 🔁 Procédure à refaire à chaque session (~2 min)
 
 ### 1. Démarrer un notebook Kaggle avec GPU
